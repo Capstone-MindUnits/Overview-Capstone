@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from './components/Nav/Nav';
 import ProductInfo from './components/productInfo/ProductInfo'
+import StyleSelector from './components/StyleSelector/StyleSelector'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <div class="grid grid-rows-3 grid-flow-col gap-4 w-2/3 flex  mx-auto  ">
         <div class=" navc row-span-3 col-span-2 ...">1</div>
         <div class=" col-span-1 ... "><ProductInfo /></div>
-        <div class="navc col-span-1  ...">3</div>
+        <div class=" col-span-1  ..."><StyleSelector/></div>
         <div class="navc col-span-1  ...">4</div>
       </div>
 

@@ -5,6 +5,10 @@
 .navc{
   background-color: theme('color.dark-grey');
 }
+
+.testc{
+  background-color: theme('color.grey-test');
+}
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

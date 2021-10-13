@@ -2,8 +2,8 @@ import React from 'react'
 
 function ProductInfo() {
     return (
-        <div className='w-1/3 text-left ' >
-            <div className="w-1/4 flex flex-row whitespace-nowrap "  >
+        <div className=' text-left content-around	 ' >
+            <div className=" flex flex-row  "  >
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
 
                 <ul className="flex ">
@@ -23,7 +23,7 @@ function ProductInfo() {
                         <i className="far fa-star fa-sm text-black-500 mr-1"></i>
                     </li>
                 </ul>
-                <p className="text-xs align-baseline  ">see all here</p>
+                <u className="text-xs align-baseline  ">Read all reviews</u>
 
             </div>
             <h5>CATEGORY</h5>
