@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/Nav/Nav';
 import ProductInfo from './components/productInfo/ProductInfo'
 import StyleSelector from './components/StyleSelector/StyleSelector'
+import AddToCart from './components/AddToCart/AddToCart'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <div class=" navc row-span-3 col-span-2 ...">1</div>
         <div class=" col-span-1 ... "><ProductInfo /></div>
         <div class=" col-span-1  ..."><StyleSelector/></div>
-        <div class="navc col-span-1  ...">4</div>
+        <div class=" col-span-1  ..."><AddToCart/></div>
       </div>
 
     </div>
