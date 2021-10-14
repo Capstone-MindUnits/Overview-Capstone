@@ -9,6 +9,10 @@
 .testc{
   background-color: theme('color.grey-test');
 }
+
+:fullscreen {
+  width: 500px;
+}
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
