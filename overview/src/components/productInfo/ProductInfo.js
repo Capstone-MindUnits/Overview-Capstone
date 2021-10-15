@@ -1,7 +1,8 @@
 import React from 'react'
 
-function ProductInfo() {
+function ProductInfo({product}) {
     return (
+        
         <div className=' text-left content-around	 ' >
             <div className=" flex flex-row  "  >
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
@@ -27,7 +28,7 @@ function ProductInfo() {
 
             </div>
             <h5>CATEGORY</h5>
-            <h1 className="text-3xl "><strong>Expanded Product Name</strong></h1>
+            <h1 className="text-3xl "><strong>Expanded Product Name </strong></h1>
             <p >$365</p>
         </div>
     )
