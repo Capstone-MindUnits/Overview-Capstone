@@ -1,5 +1,4 @@
 import React from 'react';
-import icon from  './icon.png'
 import './Nav.scss';
 
 function Nav() {
@@ -12,11 +11,11 @@ function Nav() {
 
             <div className="  align-middle flex flex-row gap-2.5">
             <input type='text'  className=" bg-transparent  leading-tight focus:outline-none  text-white border-b-2  border-white w-32"  />
-            <svg href=""
+            <svg href="#"
               width="20"
               height="20"
               fill="currentColor"
-              className="text-white">
+              className="text-white ">
               <path
                 fillRule="evenodd"
                 clipRule="evenodd"
