@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react'
 import './Nav.scss';
 
-function Nav() {
-    return (
-        <nav className=" navc w-2/3 h-20  mx-auto px-4 flex justify-between items-center  ">
+
+
+export default class Nav extends Component {
+      
+    render() {
+        return (
+            <nav className=" navc w-2/3 h-20  mx-auto px-4 flex justify-between items-center  ">
 
             <a href="#" className=" text-white flex align-middle  font-black text-xl italic font-sans underline  " >
                 Logo
@@ -28,7 +32,6 @@ function Nav() {
 
 
         </nav>
-    )
+        )
+    }
 }
-
-export default Nav

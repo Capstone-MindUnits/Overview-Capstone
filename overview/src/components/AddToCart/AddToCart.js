@@ -5,12 +5,12 @@ function AddToCart() {
         <div className='text-left'>
             <div className="flex flex-row">
                 <select className=" w-3/5 h-16 border m-2 border-black font-bold " >
-                    <option selected disabled hidden className='mx-4'>SELECT SIZE</option>
+                    <option defaultValue disabled hidden className='mx-4'>SELECT SIZE</option>
                     <option>1</option>
                     <option>2</option>
                 </select>
                 <select className="w-2/5 h-16 border m-2 border-black font-bold" >
-                    <option selected >1</option>
+                    <option defaultValue >1</option>
                     <option>2</option>
                 </select>
             </div>
