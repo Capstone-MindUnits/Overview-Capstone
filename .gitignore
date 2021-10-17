@@ -4,10 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-src/OverView/config/token.js
-src/Product-List/config/config.js
-src/QnA/config/token.js
-src/Rating&Reviews/config/config.js
+
 
 # testing
 /coverage
