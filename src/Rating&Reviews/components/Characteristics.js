@@ -2,10 +2,10 @@ import React from 'react'
 
 function Characteristics() {
     return (
-        <div className="grid grid-rows-6 gap-4">
-            <div className="grid grid-rows gap-4">
-                <p>Size</p>
-                <div className='w-80 flex gap-20'>
+        <div style={{ height: '350px' }} className="grid grid-rows-4 mt-20  text-xs">
+            <div className="grid grid-rows">
+                <p className='font-bold'>Size</p>
+                <div className='w-80 flex gap-20 '>
                     <p>Small</p>
                     <p>Perfect</p>
                     <p>Wide</p>
@@ -26,8 +26,8 @@ function Characteristics() {
                 </div>
             </div>
 
-            <div className="grid grid-rows gap-4">
-                <p>Width</p>
+            <div className="grid grid-rows ">
+                <p className='font-bold'>Width</p>
                 <div className='w-80 flex gap-20'>
                     <p>Small</p>
                     <p>Ok</p>
@@ -49,8 +49,8 @@ function Characteristics() {
                 </div>
             </div>
 
-            <div className="grid grid-rows gap-5">
-                <p>Comfort</p>
+            <div className="grid grid-rows">
+                <p className='font-bold'>Comfort</p>
                 <div className='w-80 flex gap-20'>
                     <p>Poor</p>
                     <p>Ok</p>
@@ -72,8 +72,8 @@ function Characteristics() {
                 </div>
             </div>
 
-            <div className="grid grid-rows gap-4">
-                <p>Quality</p>
+            <div className="grid grid-rows ">
+                <p className='font-bold'>Quality</p>
                 <div className='w-80 flex gap-20'>
                     <p>Poor</p>
                     <p>Ok</p>

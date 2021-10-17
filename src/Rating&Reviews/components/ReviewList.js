@@ -16,7 +16,7 @@ function ReviewList({ reviewData, reviewsView }) {
             const starsArray = new Array(5)
             starsArray.fill('star')
             return (
-                <div className='grid gap-4 overflow-y-auto' style={{ height: '600px' }}>
+                <div className='grid gap-4 overflow-y-auto' style={{ height: '610px' }}>
                     {reviewData && reviewData.slice(0, reviewsView).sort((a, b) => {
                         return a.rating - b.rating
                     }).map((review, key) => {

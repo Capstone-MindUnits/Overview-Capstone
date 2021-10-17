@@ -48,7 +48,7 @@ class QnA extends React.Component {
   render() {
     return (
       <div className="app pr-16 pl-16">
-        <div className="grid grid-cols-1 gap-4  w-3/5  mx-auto">
+        <div className="grid grid-cols-1 gap-4  w-2/3   mx-auto">
           <Search />
           <Qna initialCount={this.state.initialCount} data={this.state.qna} />
         </div>
