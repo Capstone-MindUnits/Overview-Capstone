@@ -1,4 +1,4 @@
 
-var Token = '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';
+var Token = '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';
 
 export default Token
