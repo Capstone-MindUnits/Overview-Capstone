@@ -2,16 +2,16 @@ import PopUp from './PopUp';
 
 
 export default function Cards(props) {
-  {props.results&&console.log(props.results[0].photos[0].url)}
+  {props.results&&console.log(props.results)}
 
   return (
     <div className="wrapper">
              {props.results&&props.results.map((e,key)=>{
   return(
-<div key={key}>
+    <div key={key}>
           <section className="text-gray-600 body-font ml-1">
  
-          <div className="container px-20 mx-auto">
+          <div className="container px-3 mx-auto">
          
             <div className="flex flex-wrap -m-4">
  
