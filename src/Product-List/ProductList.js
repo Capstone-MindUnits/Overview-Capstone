@@ -1,7 +1,6 @@
 import React from "react";
 import './ProductList.css';
 import axios from "axios";
-import "bootstrap/dist/css/bootstrap.css";
 import Cards from "./Components/Cards";
 import OutfitCards from "./Components/OutfitCards";
 import config from "./config/config";
