@@ -4,7 +4,7 @@ export default function AddProCard() {
     return (
         <div >
             <section className="text-gray-600 body-font ml-1">
-                <div style={{ height: '800px' }} className="container px-20 py-4 mx-auto">
+                <div style={{ height: '800px' }} className="container px-4 py-4 mx-auto">
                     <div className="-mx-4">YOUR OUTFIT</div>
                     <div className="flex flex-wrap -m-4">
                         <div className=" w-11/12  mt-8 h-80 border-2 border-gray-400 focus:border-blue-500">
