@@ -8,7 +8,7 @@ function App() {
 
         <div className="grid-rows-4 gap-4">
             <div className='col-span-4 '> <OverView /> </div>
-            <div className='col-span-4 my-32'><ProductList /></div>
+            <div className='col-span-4 '><ProductList /></div>
             <div className='col-span-4 my-32'><QnA /></div>
             <div className='col-span-4 my-32'><RatindAndReview /></div>
         </div>
