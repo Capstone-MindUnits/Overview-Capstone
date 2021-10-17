@@ -10,7 +10,7 @@ function StarChart({ reviewData }) {
         const percentageArray = new Array(reviewData.length)
         console.log(percentageArray)
         return (
-            <div className="grid grid-cols-6 gap-4 mt-10 mx-auto">
+            <div className="grid grid-cols-6 gap-4 mt-2 mx-auto">
                 <div className="col-span-6 ...">100% of reviews recommended this product</div>
                 <div className="... w-16 underline"> 5 stars</div>
                 <div className="col-span-5 ... ">

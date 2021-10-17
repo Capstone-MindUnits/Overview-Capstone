@@ -55,7 +55,7 @@ class RatindAndReview extends React.Component {
   render() {
     console.log(this.state)
     return (
-      <div className="grid grid-cols-3 gap-16  w-3/5  mx-auto text-gray-600 text-xs">
+      <div className="grid grid-cols-3 gap-6  w-2/3  mx-auto text-gray-600 text-xs mb-550">
         <div className="...">
           <NumberStars reviewData={this.state.reviews.results} />
         </div>
@@ -71,7 +71,7 @@ class RatindAndReview extends React.Component {
         <div className="col-span-2 ... mt-2 ">
           <ReviewList reviewsView={this.state.reviewsView} reviewData={this.state.reviews.results} />
         </div>
-        <div className="col-span-2 ... ml-60" >
+        <div className="col-span-3 ... ml-60 " >
           <ButtonsComp reviewData={this.state.reviews.results} moreReviews={this.moreReviews.bind(this)} />
         </div>
       </div >

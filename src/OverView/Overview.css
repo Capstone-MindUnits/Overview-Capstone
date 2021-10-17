@@ -43,4 +43,11 @@
   height: auto;
   
 }
+.navc{
+  background-color: theme('color.dark-grey');
+}
+
+.testc{
+  background-color: theme('color.grey-test');
+}
 

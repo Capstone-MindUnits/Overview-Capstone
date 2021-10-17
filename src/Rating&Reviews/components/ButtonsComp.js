@@ -5,7 +5,7 @@ import "reactjs-popup/dist/index.css";
 
 function ButtonsComp({ moreReviews, reviewData }) {
     return (
-        <div className='grid-row gap-3  ml-40  flex'>
+        <div className='grid-row gap-3  ml-28  flex'>
             <button
                 onClick={() => moreReviews()}
                 className='truncate md:overflow-clip ... font-semibold py-4 px-3 border border-black '>MORE REVIEWS</button>

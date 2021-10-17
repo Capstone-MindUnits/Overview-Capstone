@@ -26,10 +26,10 @@ function NumberStars({ reviewData }) {
             )
         } else {
             return (
-                <div>
+                <div className=''>
                     <p>RATING & REVIEWS</p>
                     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
-                    <ul className="flex mt-4">
+                    <ul className="flex ">
                         <p className="text-8xl  font-bold ordinal ...">
                             {average}
                         </p>
