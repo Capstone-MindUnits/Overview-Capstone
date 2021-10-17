@@ -1,9 +1,7 @@
 import React from 'react'
-import { useSelector, useDispatch } from 'react-redux';
-import { selectProduct, } from '../../feature/ProductSlice';
 
-function Description() {
-    const pro = useSelector(selectProduct);
+function Description({pro}) {
+
 
     if(!pro ){
         return <p>please wait... </p>  

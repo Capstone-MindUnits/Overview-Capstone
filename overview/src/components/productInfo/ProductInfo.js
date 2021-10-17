@@ -1,18 +1,7 @@
 
 import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { dataAsync, selectProduct } from '../../feature/ProductSlice';
+function ProductInfo({pro}) {
 
-function ProductInfo() {
-
-    const pro = useSelector(selectProduct);
-    const dispatch = useDispatch();
-
-    useEffect(() => {
-        dispatch(dataAsync())
-    }, [dispatch])
-
-    console.log(pro)
     if (!pro) {
         return <p>please wait... </p>  
     }
