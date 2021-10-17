@@ -5,7 +5,6 @@ import { styleAsync, selectStyle, thisstyle, currentStyle, dataAsync, selectProd
 
 function StyleSelector({ styles }) {
 
-    console.log(styles)
     if (styles !== null) {
 
         return (
