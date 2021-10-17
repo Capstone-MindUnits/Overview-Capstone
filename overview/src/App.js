@@ -23,7 +23,6 @@ function App() {
     dispatch(dataAsync())
     dispatch(styleAsync())
     
-     dispatch(currentStyle(styles.results[0]))
     
 
 }, [dispatch])
@@ -34,10 +33,10 @@ function App() {
         <div className=" my-4 "><p > SITE-WIDE-ANNOUNCMENT MESSAGE! - SALE / DISCOUNT <strong>OFFER</strong> - <u>NEW PRODUCT HIGHLIGHT</u></p></div>
 
         <div className="grid grid-rows-4 grid-flow-col gap-4 w-2/3 flex  mx-auto  ">
-          <div className=" row-span-3 col-span-2  ..."><Gallery style={style} /></div>
+          <div className=" row-span-3 col-span-2  ..."><Gallery styles={styles} /></div>
           <div className=" col-span-3 ml-60  ..."><Description pro={pro} /></div>
           <div className=" col-span-1 ... "><ProductInfo pro={pro} /></div>
-          <div className=" col-span-1 ..."><StyleSelector style={style} styles={styles} /></div>
+          <div className=" col-span-1 ..."><StyleSelector  styles={styles} /></div>
           <div className=" col-span-1  ..."><AddToCart /></div>
           
         </div>

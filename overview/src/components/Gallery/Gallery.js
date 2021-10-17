@@ -3,19 +3,19 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery'
 
 
-function Gallery({style}) {
+function Gallery({styles}) {
     
 
 
-    if (style !== null) {
+    if (styles !== null) {
         const images = [
             {
-                original: style.photos[0].thumbnail_url,
-                thumbnail: style.photos[0].thumbnail_url,
+                original: styles.results[0].photos[0].thumbnail_url,
+                thumbnail: styles.results[0].photos[0].thumbnail_url,
             },
             {
-                original: style.photos[0].url,
-                thumbnail: style.photos[0].url,
+                original: styles.results[0].photos[0].url,
+                thumbnail: styles.results[0].photos[0].url,
             },
 
         ];
