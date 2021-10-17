@@ -5,7 +5,7 @@ import moment from "moment";
 
 function Qna(props) {
   return (
-    <div className=" overflow-y-auto" style={{ height: "955px" }}>
+    <div className=" overflow-y-auto" style={{ height: "550px" }}>
       {props.data.results &&
         props.data.results
           .sort((a, b) => {
@@ -15,7 +15,7 @@ function Qna(props) {
           .map((e, key) => {
             return (
               <div className="question  mt-3" key={key}>
-                <div className="w-2/3" style={{ height: "420px" }} >
+                <div className="w-2/3" style={{ height: "260px" }} >
                   <p className=" font-sans font-bold text-base text-gray-600">
                     Q: {e.question_body}
                   </p>

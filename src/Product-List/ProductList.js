@@ -43,7 +43,7 @@ class ProductList extends React.Component {
       <div>
 
         
-        <div className="grid grid-cols-6 justify-center grid-rows-1 gap-2 min-h-screen m-3">
+        <div className="grid grid-cols-6 justify-center grid-rows-1 gap-2  m-3">
           <div className="col-start-2 col-end-6 flex justify-center gap-x-6">
             <div className="row-start-1 row-end-2 text-gray-500">
             <div className="product">RELATED PRODUCT</div>

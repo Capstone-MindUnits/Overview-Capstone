@@ -14,7 +14,7 @@ export default class Nav extends Component {
             </a>
 
             <div className="  align-middle flex flex-row gap-2.5">
-            <input type='text'  className=" bg-transparent  leading-tight focus:outline-none  text-white border-b-2  border-white w-32"  />
+            <input type='text'  className=" bg-transparent  leading-tight focus:outline-none  text-white border-b-2 border-0  border-white  w-32"  />
             <svg href="#"
               width="20"
               height="20"

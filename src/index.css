@@ -26,6 +26,31 @@
 
 }
 
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+.answer {
+  display: flex;
+}
+.details {
+  display: flex;
+  font-size: 10px;
+}
+.side {
+  display: flex;
+  font-size: 10px;
+}
+.photos {
+  display: flex;
+}
+.load {
+  font-size: 10px;
+}
+.imgSize {
+  height: 100%;
+  width: 100%;
+}
 
 /* body {
   margin: 0;

@@ -31,11 +31,12 @@
 
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "h": "craco start"
 
   },
   "eslintConfig": {
