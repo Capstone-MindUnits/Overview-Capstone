@@ -71,7 +71,7 @@ class RatindAndReview extends React.Component {
         <div className="col-span-2 ... mt-2 ">
           <ReviewList reviewsView={this.state.reviewsView} reviewData={this.state.reviews.results} />
         </div>
-        <div className="col-span-3 ... ml-60 " >
+        <div className="col-span-3 ... ml-80 " >
           <ButtonsComp reviewData={this.state.reviews.results} moreReviews={this.moreReviews.bind(this)} />
         </div>
       </div >

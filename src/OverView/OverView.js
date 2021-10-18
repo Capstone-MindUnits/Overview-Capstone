@@ -35,7 +35,7 @@ function OverView() {
 
       <div className="grid grid-rows-4 grid-flow-col gap-4 w-2/3 flex  mx-auto  ">
         <div className=" row-span-3 col-span-2  ..."><Gallery styles={styles} /></div>
-        <div className=" col-span-3 ml-60  ..."><Description pro={pro} /></div>
+        <div className=" col-span-3 ml-40  ..."><Description pro={pro} /></div>
         <div className=" col-span-1 ... "><ProductInfo pro={pro} /></div>
         <div className=" col-span-1 ..."><StyleSelector styles={styles} /></div>
         <div className=" col-span-1  ..."><AddToCart /></div>

@@ -51,8 +51,8 @@ class ProductList extends React.Component {
             </div>
           </div>
 
-          <div className="col-start-2 col-end-6 flex justify-center gap-x-6">
-            <div className="row-start-1 row-end-2 mt-6">
+          <div className="col-start-2 col-end-6 flex justify-center gap-x-6 ">
+            <div className="row-start-1 row-end-2 my-10">
               <OutfitCards results={this.state.products} />
             </div>
           </div>
