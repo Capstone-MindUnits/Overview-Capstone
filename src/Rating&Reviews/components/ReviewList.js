@@ -12,7 +12,6 @@ function ReviewList({ reviewData, reviewsView }) {
                 </div>
             )
         } else {
-            console.log(reviewData)
             const starsArray = new Array(5)
             starsArray.fill('star')
             return (

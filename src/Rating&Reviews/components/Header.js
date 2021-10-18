@@ -8,7 +8,6 @@ function Header({ reviewData }) {
                 <h1></h1>
             </div>)
         } else {
-            console.log(reviewData)
             return (
                 <div className='tile-header font-bold'>
                     {reviewData.length} reviews, sorted by
