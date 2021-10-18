@@ -53,7 +53,6 @@ class RatindAndReview extends React.Component {
 
 
   render() {
-    console.log(this.state)
     return (
       <div className="grid grid-cols-3 gap-6  w-2/3  mx-auto text-gray-600 text-xs mb-550">
         <div className="...">

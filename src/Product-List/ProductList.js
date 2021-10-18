@@ -26,7 +26,6 @@ class ProductList extends React.Component {
                 return detailsDatas
             })
             .then((data)=>{
-              console.log(data)
               this.setState({
                 products: data
               })
