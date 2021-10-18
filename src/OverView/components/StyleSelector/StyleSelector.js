@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { styleAsync, selectStyle, thisstyle, currentStyle, dataAsync, selectProduct } from '../../feature/ProductSlice';
+
+import React from 'react'
+
+
 
 
 function StyleSelector({ styles }) {

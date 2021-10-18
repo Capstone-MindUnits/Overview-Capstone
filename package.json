@@ -35,8 +35,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "server": "nodemon server.js",
-    "h": "craco start"
+    "dev": "craco start"
   },
   "eslintConfig": {
     "extends": "react-app"

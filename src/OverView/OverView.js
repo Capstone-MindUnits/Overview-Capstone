@@ -9,7 +9,7 @@ import Description from './components/Description/Description'
 
 
 import { useSelector, useDispatch } from 'react-redux';
-import { styleAsync, selectStyle, thisstyle, currentStyle, dataAsync, selectProduct } from './feature/ProductSlice';
+import { styleAsync, selectStyle, dataAsync, selectProduct } from './feature/ProductSlice';
 
 
 
@@ -17,14 +17,11 @@ function OverView() {
 
   const pro = useSelector(selectProduct);
   const styles = useSelector(selectStyle)
-  const style = useSelector(thisstyle)
   const dispatch = useDispatch()
 
   useEffect(() => {
     dispatch(dataAsync())
     dispatch(styleAsync())
-
-
 
   }, [dispatch])
 
@@ -38,7 +35,7 @@ function OverView() {
         <div className=" col-span-3 ml-40  ..."><Description pro={pro} /></div>
         <div className=" col-span-1 ... "><ProductInfo pro={pro} /></div>
         <div className=" col-span-1 ..."><StyleSelector styles={styles} /></div>
-        <div className=" col-span-1  ..."><AddToCart /></div>
+        <div className=" col-span-1  ..."><AddToCart styles={styles} /></div>
 
       </div>
 
