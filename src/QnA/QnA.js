@@ -4,7 +4,7 @@ import Search from "./Components/Search/Search.js";
 import AButton from "./Components/Buttons/AButton.js";
 import QButton from "./Components/Buttons/QButton.js";
 import axios from "axios";
-import Token from './config/token'
+
 
 class QnA extends React.Component {
   constructor() {
@@ -23,7 +23,7 @@ class QnA extends React.Component {
         "https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/qa/questions/?product_id=40393",
         {
           headers: {
-            authorization: Token,
+            authorization: (process.env.REACT_APP_Token),
           },
         }
       )

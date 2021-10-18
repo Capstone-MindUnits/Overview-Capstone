@@ -7,7 +7,7 @@ import StarChart from './components/StarChart';
 import NumberStars from './components/NumberStars';
 import Characteristics from './components/Characteristics';
 import axios from 'axios';
-import config from '../Rating&Reviews/config/config';
+
 
 
 class RatindAndReview extends React.Component {
@@ -27,7 +27,7 @@ class RatindAndReview extends React.Component {
   componentDidMount() {
     axios.get('https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/reviews/?product_id=40344', {
       headers: {
-        authorization: `${config.TOKEN}`
+        authorization:(process.env.REACT_APP_Token)
       }
     }).then((data) => {
       this.setState({

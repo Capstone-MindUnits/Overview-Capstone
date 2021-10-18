@@ -3,7 +3,11 @@ import OverView from './OverView/OverView'
 import RatindAndReview from './Rating&Reviews/RatingAndReview'
 import ProductList from './Product-List/ProductList'
 import QnA from './QnA/QnA'
+import dotenv from 'dotenv'
+
+
 function App() {
+
     return (
 
         <div className="grid-rows-4 gap-4">

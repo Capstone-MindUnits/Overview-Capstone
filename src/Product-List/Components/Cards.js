@@ -2,7 +2,7 @@ import PopUp from './PopUp';
 
 
 export default function Cards(props) {
-  {props.results&&console.log(props.results)}
+ 
 
   return (
     <div className="wrapper">
