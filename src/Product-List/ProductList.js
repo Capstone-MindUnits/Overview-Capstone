@@ -13,7 +13,7 @@ class ProductList extends React.Component {
     this.getData = this.getData.bind(this);
   }
   getData() {
-    axios.get(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/products/40393/related`,
+    axios.get(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/products/40346/related`,
         { headers: { authorization: (process.env.REACT_APP_Token)}}
       )
       .then(async (response) => {
