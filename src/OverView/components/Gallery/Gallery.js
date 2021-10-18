@@ -10,12 +10,13 @@ function Gallery({styles}) {
     if (styles !== null) {
         const images = [
             {
-                original: styles.results[0].photos[0].thumbnail_url,
-                thumbnail: styles.results[0].photos[0].thumbnail_url,
+                original: styles.results[0].photos[1].thumbnail_url,
+                thumbnail: styles.results[0].photos[1].thumbnail_url,
             },
+          
             {
-                original: styles.results[0].photos[0].url,
-                thumbnail: styles.results[0].photos[0].url,
+                original: styles.results[0].photos[4].thumbnail_url,
+                thumbnail: styles.results[0].photos[4].thumbnail_url,
             },
 
         ];
