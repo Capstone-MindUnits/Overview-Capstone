@@ -3,7 +3,6 @@ import './ProductList.css';
 import axios from "axios";
 import Cards from "./Components/Cards";
 import OutfitCards from "./Components/OutfitCards";
-import config from "./config/config";
 
 class ProductList extends React.Component {
   constructor(props) {
@@ -15,13 +14,13 @@ class ProductList extends React.Component {
   }
   getData() {
     axios.get(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/products/40393/related`,
-        { headers: { authorization: `${config.Token}`}}
+        { headers: { authorization: (process.env.REACT_APP_Token)}}
       )
       .then(async (response) => {
                 const detailsDatas = await response.data.reduce(async (memo, v, i) => {
                     const results = await memo;
                     const detailedData = await axios.get(`https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfp/products/${response.data[i]}/styles`,
-                        { headers: { Authorization: `${config.Token}` } })
+                        { headers: { Authorization: (process.env.REACT_APP_Token) } })
                     return [...results, ...detailedData.data.results];
                 }, []);
                 return detailsDatas

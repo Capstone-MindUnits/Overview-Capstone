@@ -8,12 +8,14 @@
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@reduxjs/toolkit": "^1.5.1",
-    "@testing-library/jest-dom": "^4.2.4",
     "@tailwindcss/forms": "^0.3.4",
+    "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "moment": "^2.29.1",
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.13",
     "react": "^17.0.2",
@@ -22,12 +24,11 @@
     "react-redux": "^7.2.3",
     "react-responsive-carousel": "^3.2.21",
     "react-scripts": "4.0.3",
-    "sass": "^1.42.1",
-    "moment": "^2.29.1",
+    "react-star-rating": "^1.4.2",
+    "react-star-ratings": "^2.3.0",
     "reactjs-popup": "^2.0.5",
     "rsuite": "^5.0.1",
-    "react-star-rating": "^1.4.2",
-    "react-star-ratings": "^2.3.0"
+    "sass": "^1.42.1"
   },
   "scripts": {
     "start": "nodemon server.js",
